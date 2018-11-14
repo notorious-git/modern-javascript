@@ -15,3 +15,7 @@ console.log("the value is", value2);
 console.log("YO!!!");
 
 console.log(math.sqrt(-4));
+
+var name = "Bobby";
+var time = "today";
+console.log(`Hello ${name}, how are you ${time}?`);

@@ -77,7 +77,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "dist";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\nvar numeral = __webpack_require__(/*! numeral */ \"./node_modules/numeral/numeral.js\");\nvar math = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/index.js\");\n\nconsole.log(\"Hello from JavaScript!\");\nvar datetime = moment()\n  .startOf(\"day\")\n  .fromNow();\nconsole.log(datetime);\n\nvar myNumeral2 = numeral(\"1,000\");\nvar value2 = myNumeral2.value();\nconsole.log(\"the value is\", value2);\n\nconsole.log(\"YO!!!\");\n\nconsole.log(math.sqrt(-4));\n\n\n//# sourceURL=webpack:///./index.js?");
+eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nvar numeral = __webpack_require__(/*! numeral */ \"./node_modules/numeral/numeral.js\");\n\nvar math = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/index.js\");\n\nconsole.log(\"Hello from JavaScript!\");\nvar datetime = moment().startOf(\"day\").fromNow();\nconsole.log(datetime);\nvar myNumeral2 = numeral(\"1,000\");\nvar value2 = myNumeral2.value();\nconsole.log(\"the value is\", value2);\nconsole.log(\"YO!!!\");\nconsole.log(math.sqrt(-4));\nvar name = \"Bobby\";\nvar time = \"today\";\nconsole.log(\"Hello \".concat(name, \", how are you \").concat(time, \"?\"));\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 

@@ -16,6 +16,6 @@ console.log("YO!!!");
 
 console.log(math.sqrt(-4));
 
-var name = "Bobby";
+var name = "Bob";
 var time = "today";
 console.log(`Hello ${name}, how are you ${time}?`);
